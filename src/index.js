@@ -1,3 +1,2 @@
-export createBrowserHistory from 'history/createBrowserHistory';
-export createHashHistory from 'history/createHashHistory';
+export {createBrowserHistory, createHasHistory} from 'history';
 export router from './router';
